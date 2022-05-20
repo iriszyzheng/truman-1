@@ -1,16 +1,18 @@
 Truman Platform 
 =======================
 
-Updated Version: fix the inconsistency problem in notification
+Updated Version: several labels would be able to add to one actor's reply
 
 Changes Applied: 
 
- 1.controllers/notification.js
-  * added a while loop for identification
-  * added a if statement to filter valid reply
+ 1.populate.js
+  * added a if statement to split several labels
  
  2.models/Notification.js
-  * added a boolean variable to store value
+  * added a string array variable to store value
+ 
+ 3.input/actor_replies.csv
+  * added several labels to a reply
 
 =======================
 
