@@ -7,6 +7,7 @@ Changes Applied:
 
  1.populate.js
   * added a if statement to split several labels
+  (still have a bug with this revise, main page warns type error 500)
  
  2.models/Notification.js
   * added a string array variable to store value
