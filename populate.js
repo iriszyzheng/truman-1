@@ -234,6 +234,19 @@ async function doPopulate() {
                     var notify = new Notification(notifydetail);
                     // add label
                     notify.label = new_notify.label;
+                    
+                    // add multiple label
+                    // check if there are multiple label
+                    //if(String(notify.label).includes(",")){
+                    //create a new string arrary
+                    //use delimiter to split the string
+                    //store substring into the new string array
+                    //const label_array = String(notify.label).split(",");
+                    //return the array
+                    //notify.labelArray = label_array;
+                    //}
+                    //else{notify.labelArray = new Array(notify.label);}
+
                     notify.save(function (err) {
                         if (err) {
                             console.log("Something went wrong in Saving Notify Actor reply!!!");
